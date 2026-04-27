@@ -1,9 +1,25 @@
 # MLB Replay Challenge Value Dashboard
 
-A Streamlit app that quantifies the value of an MLB replay challenge using:
+> Quantifies the value of an MLB replay challenge by computing the change in
+> run expectancy and calibrated win probability before vs. after the call.
 
-- A **24-state run expectancy** table built from Retrosheet play-by-play data.
-- A **calibrated gradient-boosted win probability** model trained on the same data.
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
+[![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-FF4B4B.svg)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Live demo:** _(add your Streamlit Cloud URL here once it deploys)_
+
+![Dashboard screenshot](docs/screenshot.png)
+
+## What it does
+
+A Streamlit app powered by:
+
+- A **24-state run expectancy** table built from 2.08M Retrosheet plate
+  appearances (2015–2024).
+- A **calibrated gradient-boosted win-probability model** trained on the same
+  data, evaluated by season-based holdout (Brier 0.152, log-loss 0.455 on
+  ~492K test rows).
 - A clean rule for converting the pre/post game-state into a single
   `Challenge_Value` number from the perspective of the challenging team.
 
