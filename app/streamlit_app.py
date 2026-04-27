@@ -344,7 +344,7 @@ st.markdown(
     """
     <div class="savant-header">
         <h1>Replay Challenge Value</h1>
-        <p>Run expectancy + calibrated win probability for any challenge state &mdash; Retrosheet 2015&ndash;2024</p>
+        <p>Run expectancy + calibrated win probability for any challenge state &mdash; Retrosheet</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -528,7 +528,7 @@ with st.expander("MODEL NOTES & LIMITATIONS"):
     st.markdown(
         """
 - **WP model:** HistGradientBoosting, isotonic-calibrated, trained on
-  Retrosheet plate-appearance states (2015–2024). Train/test split is by
+  Retrosheet plate-appearance states. Train/test split is by
   season (last 3 seasons in the holdout). See `outputs/wp_evaluation.csv`
   and `outputs/calibration_plot.png` for diagnostics.
 - **RE table:** classic 24-state base/out table (Tango formulation).
