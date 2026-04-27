@@ -1,6 +1,6 @@
 # Recovery Plan (token-budget protection)
 
-If this conversation runs out of tokens, this document tells the next agent (or Graham)
+If this conversation runs out of tokens, this document tells the next agent (or you)
 exactly how to finish the project. Files are produced in this order; if any step is
 incomplete, restart from that step.
 

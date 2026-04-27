@@ -146,3 +146,15 @@ WP_batting = WP_home          if batting team is home
 
 If you ran out of tokens mid-build, see `PLAN.md` — it describes the
 exact build order and which file to resume from.
+
+## Acknowledgements
+
+The play-by-play data that powers the run-expectancy table and the
+win-probability model in this project was obtained free of charge from
+and is copyrighted by [Retrosheet](https://www.retrosheet.org).
+Interested parties may contact Retrosheet at www.retrosheet.org.
+
+This project does not redistribute Retrosheet's raw event files; users
+are expected to download the source data directly from Retrosheet
+themselves.
+
