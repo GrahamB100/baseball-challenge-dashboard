@@ -1,0 +1,38 @@
+{
+  "features": [
+    "inning",
+    "is_top_inning",
+    "batting_team_is_home",
+    "home_score",
+    "away_score",
+    "score_diff_home",
+    "outs_before",
+    "runner_1b",
+    "runner_2b",
+    "runner_3b",
+    "balls",
+    "strikes",
+    "season",
+    "base_state",
+    "count_state"
+  ],
+  "numeric": [
+    "inning",
+    "is_top_inning",
+    "batting_team_is_home",
+    "home_score",
+    "away_score",
+    "score_diff_home",
+    "outs_before",
+    "runner_1b",
+    "runner_2b",
+    "runner_3b",
+    "balls",
+    "strikes",
+    "season"
+  ],
+  "categorical": [
+    "base_state",
+    "count_state"
+  ]
+}

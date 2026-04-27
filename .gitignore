@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Raw / intermediate data — too large, regenerable from Retrosheet zips.
+data_raw/retrosheet/*/
+data_raw/retrosheet/parsed.csv
+data_clean/*.parquet
+
+# Keep folder placeholders.
+!data_raw/.gitkeep
+!data_raw/retrosheet/.gitkeep
+!data_clean/.gitkeep
+
+# IMPORTANT: artifacts/ and outputs/ are NOT ignored — Streamlit Cloud needs
+# them at runtime (the app loads wp_model.joblib + re_*.parquet).
