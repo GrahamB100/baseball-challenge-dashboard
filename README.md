@@ -142,11 +142,6 @@ WP_batting = WP_home          if batting team is home
   starting on 2B as a normal runner on 2B at the start of the half
   inning, so the model sees these states naturally.
 
-## Token-budget recovery
-
-If you ran out of tokens mid-build, see `PLAN.md` — it describes the
-exact build order and which file to resume from.
-
 ## Acknowledgements
 
 The play-by-play data that powers the run-expectancy table and the
